@@ -1,0 +1,63 @@
+.mainpage {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.mainpage-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.block h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.block ul li {
+  margin: 10px 0;
+}
+
+.block ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.block ul li a:hover {
+  text-decoration: underline;
+}
